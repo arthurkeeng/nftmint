@@ -38,6 +38,11 @@ THE FRONTEND IS DEPLOYED TO VERCE AT
 ## Minimalistic backend repo link
 [backend repo](https://github.com/arthurkeeng/nftserver)
 
+## Loom Video Explanation
+[loom video - frontend ]([https://github.com/arthurkeeng/nftserver](https://www.loom.com/share/f07eb5f55fbe401dbb3f7565f37265ed?sid=d17d08e3-ddf7-4272-8131-4b752472d39c))
+
+[loom video -backend](https://www.loom.com/share/16603a2ca3de40f4a6b5d20e98497d24?sid=13e1be6f-95bc-4b3f-b8c0-1ca0d6baf5cc)
+
 ## Api routes
 
 FOR LACK OF TIME , ONLY TWO API ROUTES WERE IMPLEMENTED

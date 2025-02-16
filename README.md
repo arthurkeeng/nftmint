@@ -41,6 +41,6 @@ THE FRONTEND IS DEPLOYED TO VERCE AT
 ## Api routes
 
 FOR LACK OF TIME , ONLY TWO API ROUTES WERE IMPLEMENTED
-  - /api/nfts    - this routes for both get and post requests. 
+  - /api/nfts    - this routes for both GET and POST requests. 
       The get request on this route gets all the nfts
       The post request stores the nft metadata on mongodb

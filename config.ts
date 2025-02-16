@@ -21,12 +21,14 @@ declare module 'wagmi' {
   })
 
   
-  export const walletClient = createWalletClient({
-    chain: sepolia,
-    transport: custom(window.ethereum!)
-  })
+  export const walletClient = typeof window !== "undefined" && window.ethereum
+  ? createWalletClient({
+      chain: sepolia,
+      transport: custom(window.ethereum!),
+    })
+  : null;
 
-  export const [account] = await walletClient.getAddresses()
+  export const [account] = walletClient ? await walletClient.getAddresses() : []
 console.log('the add' , account)
   export const config = createConfig({
     chains : [sepolia],
